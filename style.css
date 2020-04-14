@@ -1,0 +1,200 @@
+/* Style Page for Portfolio */
+
+/* General Crap */
+body {
+    background-image: url("photos/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    min-height: 1000px;
+}
+
+a {
+    color: darkslategray;
+}
+a:hover {
+    color: black;
+}
+
+/* Navbar*/
+#h1 { color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    background-color: #2d8659;
+    margin-left: 100px;
+    margin-top: 0px;
+    padding: 20px 40px;
+    margin-bottom: 0px;
+}
+
+#nav-item {
+    margin-top: 30px;
+    padding-left: 30px;
+}
+
+#navContainer {
+    background-color: white;
+    padding-top: 0px;
+    border-bottom-style: solid;
+    border-color: darkslategray;
+    margin-right: 0px;
+    margin-left: 0px
+}
+
+#portborder {
+    border-left-style: solid;
+    border-right-style: solid;
+    border-width: 1px;
+    border-color: darkslategray;
+}
+
+/* Page containers */
+#contentContainer {
+    min-height:700px;
+    background-color: white;
+    padding-top: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-bottom: 0px;
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #2d8659;
+}
+
+#bodyline {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 2px;
+    color: #dddddd;
+}
+
+/* Contact*/
+#button {
+    background-color: #2d8659;
+    margin-top: 10px;
+}
+
+#row-padding {
+    margin-top: 30px;
+}
+
+/*Portfolio Page*/
+h3 {
+    background-color: #2d8659;
+    color: white;
+    height: 40px;
+    text-align: center;
+    padding: 0px 0px;
+    margin-top: 125px;
+    width: 196px;
+}    
+
+.Axolotl {
+    height: 200px;
+    width: 200px;
+    padding: 10px 0px;
+    float: left;
+    position: relative;
+    background-image: url("photos/axolotl.jpg");
+    background-size: cover;
+    margin: 20px 10px;
+    border-style:solid;
+    border-color: #2d8659;
+    border-width: 2px;
+    }
+
+.Trainspotting {
+    height: 200px;
+    width: 200px;
+    padding: 10px 0px;
+    float: left;
+    position: relative;
+    background-image: url("photos/trainspotting.jpeg");
+    background-size: cover;
+    margin: 20px 10px;
+    border-style:solid;
+    border-color: #2d8659;
+    border-width: 2px;
+    }
+
+.beets {
+    height: 200px;
+    width: 200px;
+    padding: 10px 0px;
+    float: left;
+    position: relative;
+    background-image: url("photos/dwight.jpg");
+    background-size: cover;
+    margin: 20px 10px;
+    border-style:solid;
+    border-color: #2d8659;
+    border-width: 2px;
+}
+
+.arrested {
+    height: 200px;
+    width: 200px;
+    padding: 10px 00px;
+    float: left;
+    position: relative;
+    background-image: url("photos/arrested.jpg");
+    background-size: cover;
+    margin: 20px 10px;
+    border-style:solid;
+    border-color: #2d8659;
+    border-width: 2px;
+}
+
+.lala {
+    height: 200px;
+    width: 200px;
+    padding: 10px 0px;
+    float: left;
+    position: relative;
+    background-image: url("photos/lala.jpeg");
+    background-size: cover;
+    margin: 20px 10px;
+    border-style:solid;
+    border-color: #2d8659;
+    border-width: 2px;
+}
+
+.homer {
+    height: 200px;
+    width: 200px;
+    padding: 10px 0px;
+    float: left;
+    position: relative;
+    background-image: url("photos/homer.jpeg");
+    background-size: cover;
+    margin: 20px 10px;
+    border-style:solid;
+    border-color: #2d8659;
+    border-width: 2px;
+}
+
+/*le Footer*/
+#footer {
+    border-top-style: solid;
+    border-top-width: 8px;
+    border-top-color: #2d8659;
+}
+
+#pfooter {
+    text-align: center;
+    width: 100%;
+    color: gray;
+}
+/* 640px screen */
+@media only screen and (max-width: 640px) {
+    #h1 {
+        width: 100%;
+        margin: 0px 0px;
+        text-align: center;
+    }
