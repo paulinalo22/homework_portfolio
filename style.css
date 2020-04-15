@@ -2,7 +2,7 @@
 
 /* General Crap */
 body {
-    background-image: url("photos/background.jpg");
+    background-image: url("homework_portfolio/photos/background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
@@ -101,7 +101,7 @@ h3 {
     padding: 10px 0px;
     float: left;
     position: relative;
-    background-image: url("photos/axolotl.jpg");
+    background-image: url("homework_portfolio/photos/axolotl.jpg");
     background-size: cover;
     margin: 20px 10px;
     border-style:solid;
@@ -115,7 +115,7 @@ h3 {
     padding: 10px 0px;
     float: left;
     position: relative;
-    background-image: url("photos/trainspotting.jpeg");
+    background-image: url("homework_portfolio/photos/trainspotting.jpeg");
     background-size: cover;
     margin: 20px 10px;
     border-style:solid;
@@ -129,7 +129,7 @@ h3 {
     padding: 10px 0px;
     float: left;
     position: relative;
-    background-image: url("photos/dwight.jpg");
+    background-image: url("homework_portfolio/photos/dwight.jpg");
     background-size: cover;
     margin: 20px 10px;
     border-style:solid;
@@ -143,7 +143,7 @@ h3 {
     padding: 10px 00px;
     float: left;
     position: relative;
-    background-image: url("photos/arrested.jpg");
+    background-image: url("homework_portfolio/photos/arrested.jpg");
     background-size: cover;
     margin: 20px 10px;
     border-style:solid;
@@ -157,7 +157,7 @@ h3 {
     padding: 10px 0px;
     float: left;
     position: relative;
-    background-image: url("photos/lala.jpeg");
+    background-image: url("homework_portfolio/photos/lala.jpeg");
     background-size: cover;
     margin: 20px 10px;
     border-style:solid;
@@ -171,7 +171,7 @@ h3 {
     padding: 10px 0px;
     float: left;
     position: relative;
-    background-image: url("photos/homer.jpeg");
+    background-image: url("homework_portfolio/photos/homer.jpeg");
     background-size: cover;
     margin: 20px 10px;
     border-style:solid;
