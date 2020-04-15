@@ -1,0 +1,103 @@
+Last login: Tue Apr 14 20:11:52 on ttys000
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+Marsellus-Wallace:~ marselluswallace$ cd Documents/Bootcamp/portfolio/
+Marsellus-Wallace:portfolio marselluswallace$ git clone https://github.com/paulinalo22/homework_portfolio.git
+Cloning into 'homework_portfolio'...
+remote: Enumerating objects: 9, done.
+remote: Counting objects: 100% (9/9), done.
+remote: Compressing objects: 100% (6/6), done.
+remote: Total 9 (delta 2), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (9/9), done.
+Marsellus-Wallace:portfolio marselluswallace$ git init
+Reinitialized existing Git repository in /Users/marselluswallace/Documents/Bootcamp/portfolio/.git/
+Marsellus-Wallace:portfolio marselluswallace$ git add . portfolio/
+fatal: pathspec 'portfolio/' did not match any files
+Marsellus-Wallace:portfolio marselluswallace$ git add . index.html 
+Marsellus-Wallace:portfolio marselluswallace$ git add . contact.html 
+Marsellus-Wallace:portfolio marselluswallace$ git add . portfolio.html 
+Marsellus-Wallace:portfolio marselluswallace$ git add . style.css 
+Marsellus-Wallace:portfolio marselluswallace$ git add . photos/
+Marsellus-Wallace:portfolio marselluswallace$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   .DS_Store
+	deleted:    Terminal Saved Output
+
+Marsellus-Wallace:portfolio marselluswallace$ git commit
+[master 209ad97] added documents
+ 2 files changed, 225 deletions(-)
+ delete mode 100644 Terminal Saved Output
+Marsellus-Wallace:portfolio marselluswallace$ git status
+On branch master
+nothing to commit, working tree clean
+Marsellus-Wallace:portfolio marselluswallace$ git push 
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+Marsellus-Wallace:portfolio marselluswallace$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   .DS_Store
+	deleted:    contact.html
+	deleted:    index.html
+	deleted:    photos/.DS_Store
+	deleted:    photos/arrested.jpg
+	deleted:    photos/axolotl.jpg
+	deleted:    photos/background.jpg
+	deleted:    photos/dwight.jpg
+	deleted:    photos/homer.jpeg
+	deleted:    photos/lala.jpeg
+	deleted:    photos/profile_pic.jpeg
+	deleted:    photos/trainspotting.jpeg
+	deleted:    photos/tree.png
+	deleted:    portfolio.html
+	deleted:    style.css
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	homework_portfolio/contact.html
+	homework_portfolio/index.html
+	homework_portfolio/photos/
+	homework_portfolio/portfolio.html
+	homework_portfolio/style.css
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Marsellus-Wallace:portfolio marselluswallace$ git add . homework_portfolio/contact.html
+Marsellus-Wallace:portfolio marselluswallace$ git add . homework_portfolio/index.html
+Marsellus-Wallace:portfolio marselluswallace$ git add . homework_portfolio/photos/
+Marsellus-Wallace:portfolio marselluswallace$ git add . homework_portfolio/portfolio.html
+Marsellus-Wallace:portfolio marselluswallace$ git add . homework_portfolio/style.css
+Marsellus-Wallace:portfolio marselluswallace$ git commit
+hint: Waiting for your editor to close the file... 
+add files
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch master
+# Changes to be committed:
+#       modified:   .DS_Store
+#       renamed:    contact.html -> homework_portfolio/contact.html
+#       renamed:    index.html -> homework_portfolio/index.html
+#       renamed:    photos/.DS_Store -> homework_portfolio/photos/.DS_Store
+#       renamed:    photos/arrested.jpg -> homework_portfolio/photos/arrested.jpg
+#       renamed:    photos/axolotl.jpg -> homework_portfolio/photos/axolotl.jpg
+#       renamed:    photos/background.jpg -> homework_portfolio/photos/background.jpg
+#       renamed:    photos/dwight.jpg -> homework_portfolio/photos/dwight.jpg
+#       renamed:    photos/homer.jpeg -> homework_portfolio/photos/homer.jpeg
+#       renamed:    photos/lala.jpeg -> homework_portfolio/photos/lala.jpeg
+#       renamed:    photos/profile_pic.jpeg -> homework_portfolio/photos/profile_pic.jpeg
+#       renamed:    photos/trainspotting.jpeg -> homework_portfolio/photos/trainspotting.jpeg
+#       renamed:    photos/tree.png -> homework_portfolio/photos/tree.png
+-- INSERT --
